@@ -70,7 +70,7 @@ router.beforeEach((to, from, next) => {
 
 //动态改变title
 function changeTitle(title) {
-    title = title ? title : '慧社区';
+    title = title ? title : '贤生活';
     window.document.title = title;
 };
 
